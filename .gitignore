@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Crawler data, cache, logs and outputs
+autohome_crawler/data/
+autohome_crawler/logs/
+autohome_crawler/output/
+autohome_crawler/cache_*.json
+
+# Large binary data / reports
+*.pptx
+*.xlsx
+*.xls
+*.csv
+*.gz
+*.zip
+*.log
