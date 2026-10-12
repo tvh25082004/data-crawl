@@ -11,11 +11,9 @@ autohome_crawler/logs/
 autohome_crawler/output/
 autohome_crawler/cache_*.json
 
-# Large binary data / reports
-*.pptx
-*.xlsx
-*.xls
-*.csv
+# Data caches (large)
 *.gz
 *.zip
-*.log
+
+# NOTE: autohome_crawler/output/ holds 8 xlsx files >100MB which exceed
+# GitHub's per-file limit, so that directory stays ignored.
